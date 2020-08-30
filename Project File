@@ -26,7 +26,7 @@ def _upload():
 
     _upload_widget.observe(_cb, names='data')
     display(_upload_widget)
-
+ 
 _upload()
 
 def calculate_frequencies(file_contents):
